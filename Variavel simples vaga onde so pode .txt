@@ -1,0 +1,15 @@
+Variavel simples: vaga onde so pode ter um conteudo
+ex: var vaga1 = carro1. nao podemos inserir carro2 na vaga1 ja que ocupado pelo carro1
+
+Variavel composto: vaga onde pode ter mais de um conteudo
+ex: var vaga = [carro1, carro2, carro3]
+
+variavel composto sao formados por vetor (var vaga), indice de chave (n1,n2,n3), conteudo (carro) e elemento
+
+num[3] = 6 aq criamos uma vaga, esse comando significa que o numero 6 recebe vaga 3 
+
+num.push(7) ela acrescenta um vetor amais, ex: se vc tiver 3 vetores, usando num.push(6), vc acrescentara 3 vagas amais, 1 2 3 4 5 6 acrescenta em ordem, difetente do num{3} = 6, que e 1 2 3 6
+
+num.length informa quantiade de elementos na sua variavel, para selecionar uma var determinada, tipo, var num = [1,2,3,4,5,6,7] mas quero o numero 4, $num[0] 0 escollhe o primerio elemento, no caso seria o 1, 0 2 seria $num[1]
+
+num.sort() coloca numero em ordes crescente, ex var num = [3,2,5,1,4] usando o comando, vai ficar 1,2,3,4,5

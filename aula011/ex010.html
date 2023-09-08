@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+<body>
+
+    Cite a velocidade percorrida: <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+    <script>
+       function calcular() {
+        var txtv = document.getElementById('txtvel')
+        var res = document.getElementById('res')
+        vel = Number(txtv.value)
+        res.innerHTML = `Voce percorreu ${vel} (esta na media)`
+        if (vel > 30) {
+            res.innerHTML = `Voce percorreu ${vel} (mutado)`
+        }
+       }
+       
+
+
+    </script>
+    
+</body>
+</html>
