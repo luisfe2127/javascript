@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(28, 211, 243);
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    text-align: center;
+}
+
+header { 
+    font-size: 40px;
+}
+
+section {
+    background-color: white;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 20px;
+    margin-left: 23vw;
+    
+
+}
+
+#year {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+
+}
+
+#genero {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+
